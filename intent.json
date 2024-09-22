@@ -1,0 +1,71 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "What's up", "Good morning", "Good evening"],
+        "responses": ["Hey! How can I assist you with your college expenses today?", "Hello! Need help managing your college budget?", "Hi! Let me help you track your spending and savings."],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "I'm leaving", "Talk to you later"],
+        "responses": ["Goodbye! Don't forget to budget your spending!", "See you later! Stay on top of your college finances.", "Take care! Keep track of your purchases!"],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "That's helpful"],
+        "responses": ["You're welcome!", "Happy to help!", "No problem!", "Glad I could assist with your budgeting!"],
+        "context_set": ""
+      },
+      {
+        "tag": "add_expense",
+        "patterns": ["I spent $50 on textbooks", "Add $20 for cafeteria food", "I bought a $30 bus pass", "I spent $100 on supplies", "I spent $40 at the bookstore"],
+        "responses": ["Got it! I've added $50 for textbooks.", "Your $20 cafeteria expense has been added.", "I've noted $30 for the bus pass.", "I added $100 to your supplies expense.", "I've recorded $40 at the bookstore."],
+        "context_set": ""
+      },
+      {
+        "tag": "track_expense",
+        "patterns": ["How much have I spent?", "Show me my expenses", "What did I spend on this month?", "How much did I spend on food?", "How much have I spent on textbooks?"],
+        "responses": ["You’ve spent $200 this month, mainly on food and textbooks.", "Here’s your spending breakdown: $100 on food, $50 on supplies, $150 on textbooks.", "You spent $70 on transportation this week."],
+        "context_set": ""
+      },
+      {
+        "tag": "category_breakdown",
+        "patterns": ["Show me a breakdown of my spending", "How much did I spend on food?", "Show me what I spent on transportation"],
+        "responses": ["Here’s the breakdown: $150 on food, $50 on transportation.", "You’ve spent $100 on transportation this month.", "Your biggest expenses this week were $200 for textbooks and $100 for groceries."],
+        "context_set": ""
+      },
+      {
+        "tag": "budget_warning",
+        "patterns": ["Warn me when I exceed my budget", "Set a spending limit for food", "Tell me if I spend more than $200", "Remind me if I go over budget"],
+        "responses": ["I'll let you know if you exceed your $200 budget for the month.", "Okay, I’ll alert you if your food expenses go over $150.", "I’ve set a limit for transportation at $50."],
+        "context_set": ""
+      },
+      {
+        "tag": "savings_suggestions",
+        "patterns": ["How can I save money?", "Give me tips to save", "How do I reduce my spending?", "Suggestions for saving more"],
+        "responses": ["Try meal prepping to save on food costs.", "Use public transportation or campus shuttles to cut down on transport expenses.", "Check if your bookstore offers used textbooks or rentals."],
+        "context_set": ""
+      },
+      {
+        "tag": "needs_vs_wants",
+        "patterns": ["Is this a need or a want?", "Should I buy this?", "Do I really need this?", "Help me decide if I should buy this"],
+        "responses": ["Ask yourself: Do I really need this item, or is it a want? Stick to the essentials first, especially with a tight budget.", "It's a good idea to prioritize needs over wants until you have more room in your budget."],
+        "context_set": ""
+      },
+      {
+        "tag": "scholarship_advice",
+        "patterns": ["How can I get more financial aid?", "Any tips for scholarships?", "How can I apply for scholarships?", "Tell me about financial aid options"],
+        "responses": ["Check with your financial aid office to see if there are any scholarships you qualify for.", "Look into work-study programs to earn while studying.", "You can also explore online scholarship platforms that match students to available grants and aid."],
+        "context_set": ""
+      },
+      {
+        "tag": "help",
+        "patterns": ["What can you do?", "Help me", "What are your features?", "How can you help me with budgeting?"],
+        "responses": ["I can help you track your expenses, categorize your spending, set budget warnings, and give tips for saving. I can also offer advice on scholarships and financial aid."],
+        "context_set": ""
+      }
+    ]
+  }
+  
